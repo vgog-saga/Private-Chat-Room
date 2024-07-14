@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: aqua;
+}
+
+h1{
+    color: rgb(10, 0, 0);
+    font-family: cursive;
+    text-align: center;
+    font-size: 2rem;
+}
+.chat{
+    background-color: rgb(241, 239, 241);
+    padding: 2rem;
+    border-radius: 15px;
+}
+.chat h2{
+    font-size: 2rem;
+    font-family: cursive;
+    text-align: center;
+}
+.msg{
+    width:420px;
+    height:480px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin: 1rem auto;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.input_msg{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 70%;
+    font-size: 1.2rem;
+    padding: 0.4rem 1.3rem;
+}
+.input_msg button{
+    background-color:greenyellow;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    font-size: 1.3rem;
+}
+.msg p{
+    background-color: rgb(194, 193, 193);
+    padding: 0.4rem 1rem;
+    width: fit-content;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.msg p span{
+    display: block;
+    font-weight: bold;
+    opacity: 0.5rem;
+}
+.msg .sender{
+    background-color: rgba(70, 247, 5, 0.611);
+    align-self: end;
+}
